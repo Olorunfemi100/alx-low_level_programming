@@ -14,10 +14,7 @@ int main(void)
 	{
 		putchar(alp[i]);
 	}
-/**
- * For a new line character.
- *
- */
+/* For a new line character. */
 	putchar('\n');
 	return (0);
 }
