@@ -5,20 +5,24 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - prints the lowercase alphabet in reverse,
+ * main - prints all the numbers of base 16 in lowercase.
  * followed by a new line
+ *
  * Return: Always 0
  */
 
 int main(void)
 {
-	char ch;
+	int i;
 
-	for (ch = 'z'; ch >= 'a'; ch--)
+	for (i = 48; i < 58; i++)
 	{
-		putchar(ch);
+		putchar(i);
+	}
+	for (i = 97; i < 103; i++)
+	{
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
 }
-
