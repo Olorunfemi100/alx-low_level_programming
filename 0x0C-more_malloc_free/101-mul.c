@@ -39,6 +39,10 @@ int _strlen(char *s)
 	return (i);
 }
 
+/**
+ * errors - handles errors for main
+ */
+
 void errors(void)
 {
 	printf("Error\n");

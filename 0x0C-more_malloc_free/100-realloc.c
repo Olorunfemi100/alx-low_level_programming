@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * *_realloc - Write a function that reallocates a memory block using malloc and free
+ * *_realloc - Write a function that reallocates a memory
+ * block using malloc and free
  * @ptr: void pointer to the memory previsouly allocated
  * @old_size: int old size of the allocated memory
  * @new_size: int new size of the new memory
