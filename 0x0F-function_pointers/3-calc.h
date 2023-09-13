@@ -2,7 +2,8 @@
 #define CALC_H
 
 /**
- * struct op - This file should contain all the function prototypes and data structures used by the program. You can use this structure:
+ * struct op - This file should contain all the function prototypes
+ * and data structures used by the program. You can use this structure:
  * @op: operator.
  * @f: Associated function.
  * Return: -
